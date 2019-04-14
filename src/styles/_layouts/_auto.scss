@@ -1,0 +1,108 @@
+#filter_submit {
+    position: relative;
+    z-index: 1;
+    left: -25px;
+    top: 1px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+}
+
+.zip-lookup{
+    position: relative;
+    top:100px;
+
+    input[type=text] {
+        margin-bottom: 0px;
+        border:1px solid $shade-light;
+        width:100%;
+        padding-left: 10px;
+        height: 60px;
+        color:black;
+    }
+
+    ul,li {
+        padding: 0;
+        list-style: none;
+    }
+
+    ul{
+        cursor: default;
+        z-index: 1000;
+        list-style: none;
+        outline: 0;
+        float: left;
+        width:100%;
+        border-width: 0 1px 1px;
+        border-color: $shade-light;
+        border-style: solid;
+        background: #fff;
+        padding: .5em;
+        box-shadow: 0 2px 0 0 rgba(0,0,0,.3);
+        border-radius: 0 0 1px 1px;
+        -webkit-border-radius: 0 0 3px 3px;
+
+        li{
+            text-decoration: none;
+            list-style-type: none;
+            width:100%;
+            cursor: pointer;
+            float:left;
+            margin-top:20px;
+
+            span {
+                padding:3px;
+            }
+
+            a {
+                text-decoration: none;
+                display: block;
+                min-height: 0;
+                font-size: 1em;
+                font-weight: 400;
+                overflow: hidden;
+                cursor: pointer;
+                border-radius: 4px;
+                color: $shade-light;
+                line-height: 2em;
+                padding: 3px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                padding-right: 30px;
+                position: relative;
+
+                &:hover{
+                    background: $primary-light;
+                }
+            }
+        }
+    }
+}
+
+.lookahead {
+
+  &__fallback-options {
+    margin: 0;
+    padding: 0;
+    display: none;
+
+    &--shown {
+      display: block;
+    }
+  }
+
+  &__option {
+    cursor: default;
+    font-size: .8em;
+    list-style-type: none;
+    line-height: 2;
+    border: 1px solid #98BFE5;
+    border-top: none;
+
+    &--selected,
+    &:hover {
+      background-color: #B3D8FD;
+    }
+
+  }
+}

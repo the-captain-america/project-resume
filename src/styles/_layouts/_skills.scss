@@ -1,0 +1,53 @@
+.skill{
+  padding:15px;
+  border:1px solid $shade-dark;
+  margin-top:10px;
+  margin-top:10px;
+  float:left;
+  width:100%;
+  border-radius:3px;
+  &:hover{
+    span.skill-edit{
+      opacity: 1;
+    }
+    span.skill-remove{
+      opacity: 1;
+    }
+  }
+  span.title{
+    font-weight:bold;
+    margin-top:7px;
+    margin-bottom:7px;
+    float:left;
+    width: 100%;
+  }
+  &:first-child{
+    margin-top:30px;
+  }
+
+  .skill-options{
+    animation-delay: 2s;
+    opacity: 0;
+    position: absolute;
+    display: block;
+    padding: 7px 10px;
+    background: $shade-dark;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    cursor: pointer;
+    &:hover{
+      background:$primary-light;
+    }
+  }
+
+  span.skill-edit{
+    @extend .skill-options;
+    right: 45px;
+  }
+  span.skill-remove{
+    @extend .skill-options;
+    right: 90px;
+  }
+}

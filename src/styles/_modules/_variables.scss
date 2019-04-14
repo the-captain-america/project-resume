@@ -1,0 +1,66 @@
+
+// Base Font
+$base-font-family: Verdana, Arial, Helvetica, sans-serif;
+$base-font-weight: normal;
+$base-font-size: 16px;
+$base-line-height: 1.3em;
+
+$primary-light: #4278a7;
+$primary-dark: #0b356c;
+
+$main-text: #7f8c97; // main text
+$link: #acb7c0; // anchor tags
+$background: #e9f0f5; // body background color
+
+$shade-light: #F7F7F7;
+$shade-dark: #DBDBDB;
+
+$orange-light-color: #ff7058; // light orange
+$orange-dark-color: #f1543f; // dark orange
+
+//random colors
+$explain-color: #F7F7F7;
+$main-text: #7f8c97; // main text
+$link: #acb7c0; // anchor tags
+$background: #e9f0f5; // body background color
+$shadow-grey-light: #c0c0c0; // shadow
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+$primary-font: 'Droid Serif', serif;
+$secondary-font: 'Open Sans', sans-serif;
+$tertiary-font: 'Roboto', sans-serif;
+
+// Z-index
+$overlayZ: 100;
+$menuZ: 200;
+$menuButton: 300;
+$headerZ: 50;
+$menuAuth: 100;
+
+// Variables
+$color10: #FFFFFF;
+$fast: 0.3s;
+$slow: 0.4s;
+$font-color: #DBDBDB;
+
+// Random
+$font: #7f8c97;
+$grey: #323232;
+$background: #e9eff1;
+
+// Variables
+$color10: #FFFFFF;
+$fast: 0.3s;
+$slow: 0.4s;
+
+// Z-index
+$overlayZ: 100;
+$menuZ: 200;
+$menuButton: 300;
+$headerZ: 50;
+$menuAuth: 50;
+
+$assetPath: "../images";
+/*Path Usage */
+/*  #{$assetPath} */

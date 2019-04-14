@@ -1,0 +1,66 @@
+
+//Push down
+.push-down-xxs{
+  margin-top: 1px;
+}
+.push-down-xs{
+  margin-top: 5px;
+}
+.push-down-sm{
+  margin-top:10px;
+}
+.push-down-md{
+  margin-top:20px;
+}
+.push-down-lg{
+  margin-top:40px;
+}
+.push-down-xl{
+  margin-top:60px;
+}
+.push-down-xxl{
+  margin-top:80px;
+}
+
+//Push up
+.push-up-xs{
+  margin-bottom: 5px;
+}
+.push-up-sm{
+  margin-bottom:10px;
+}
+.push-up-md{
+  margin-bottom:20px;
+}
+.push-up-lg{
+  margin-bottom:40px;
+}
+.push-up-xl{
+  margin-bottom:60px;
+}
+.push-up-xxl{
+  margin-bottom:80px;
+}
+
+//Paddify
+.paddify-xs{
+	padding:5px;
+}
+.paddify-sm{
+	padding:10px;
+}
+.paddify-md{
+  padding:20px;
+}
+.paddify-lg{
+  padding:40px;
+}
+
+.hide{
+  display: none;
+}
+
+// extra specificity
+input.input-hide[type="file"] {
+  display: none;
+}

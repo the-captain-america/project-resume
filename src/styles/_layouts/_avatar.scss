@@ -1,0 +1,89 @@
+@-moz-keyframes pulse {
+ 0% {
+    -moz-transform: scale(1);
+    opacity: 0.0;
+ }
+ 25% {
+    -moz-transform: scale(1.25);
+    opacity: 0.1;
+ }
+ 50% {
+    -moz-transform: scale(1.5);
+    opacity: 0.3;
+ }
+ 75% {
+    -moz-transform: scale(1.75);
+    opacity: 0.5;
+ }
+ 100% {
+    -moz-transform: scale(2);
+    opacity: 0.0;
+ }
+}
+
+@-webkit-keyframes "pulse" {
+ 0% {
+    -webkit-transform: scale(1);
+    opacity: 0.0;
+ }
+ 25% {
+    -webkit-transform: scale(1.25);
+    opacity: 0.1;
+ }
+ 50% {
+    -webkit-transform: scale(1.5);
+    opacity: 0.3;
+ }
+ 75% {
+    -webkit-transform: scale(1.75);
+    opacity: 0.5;
+ }
+ 100% {
+    -webkit-transform: scale(2);
+    opacity: 0.0;
+ }
+}
+
+.pulse {
+  width: 40px;
+  height: 40px;
+  top: 0px;
+  position: absolute;
+  left: 0px;
+  border-radius: 50%;
+  //border: 3px solid $primary-dark;
+  //background-color: rgba(42, 186, 179, 0);
+  //position: absolute;
+
+  &.active{
+   -webkit-animation: pulse 2s ease-out;
+  -moz-animation: pulse 2s ease-out;
+  animation: pulse 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  }
+}
+
+.avatar{
+  position:absolute;
+  right:10px;
+  top:0px;
+  cursor:pointer;
+  height:40px;
+}
+
+.avatar-container{
+  width:40px;
+  height:40px;
+  position:relative;
+  top:10px;
+
+  img{
+    width:100%;
+    display:block;
+    border-radius: 50%;
+    position:relative;
+    z-index:10;
+  }
+}

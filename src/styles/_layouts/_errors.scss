@@ -1,0 +1,27 @@
+.error{
+  position:relative;
+  span.message{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 4px;
+    background: #F20C0C;
+    text-align: center;
+    color: white;
+    float: left;
+    display: block;
+    line-height: 15px;
+    position: relative;
+  }
+  span.error-icon{
+    i{
+      color: #730202;
+    }
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top:20px;
+  }
+}

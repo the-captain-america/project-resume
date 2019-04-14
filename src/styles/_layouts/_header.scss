@@ -1,0 +1,26 @@
+.header-bar {
+  background: $primary-light;
+  color: #fff;
+  height:60px;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  padding-top:5px;
+  z-index:200;
+  text-align: center;
+  border-bottom:3px solid $primary-dark;
+  .title{
+    span.title{
+      font-size: 18px;
+      line-height: 30px;
+    }
+    span.sub-title{
+      font-size:12px;
+      float:left;
+      text-align:center;
+      width:100%;
+
+    }
+  }
+}

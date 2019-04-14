@@ -1,0 +1,16 @@
+.ease { -webkit-transition: 300ms ease all; transition: 300ms ease all; }
+
+.hide{
+  display:none;
+}
+
+.show{
+  display:block;
+}
+
+// Shadows
+.box-shadow{
+  -webkit-box-shadow: 2px 3px 11px 1px rgba(0,0,0,0.08);
+  -moz-box-shadow: 2px 3px 11px 1px rgba(0,0,0,0.08);
+  box-shadow: 2px 3px 11px 1px rgba(0,0,0,0.08);
+}

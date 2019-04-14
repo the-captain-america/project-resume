@@ -1,0 +1,30 @@
+/* sections */
+section{
+  height: auto;
+float: left;
+width: 100%;
+  &:first-child{
+    h3{
+      margin-top:0px !important;
+    }
+  }
+}
+
+.center-section{
+  margin:0 auto;
+  width:400px;
+}
+
+section{
+  &.set-form{
+    h2{
+      margin-top:0px;
+      margin-bottom:0px;
+    }
+    ul.input-list{
+      li{
+        margin-top:20px;
+      }
+    }
+  }
+}
